@@ -1,3 +1,6 @@
+![image](https://github.com/niksuyko/sphere-app/assets/152563000/c207e2ea-8233-476c-a9b0-a80b31bbcb30)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
