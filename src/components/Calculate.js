@@ -15,6 +15,12 @@ function Calculate(props) {
         setResult(newResult);
     };
 
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            handleCalculate();
+        }
+    };
+
     //return jsx
     return (
         <div className="container">
@@ -25,6 +31,7 @@ function Calculate(props) {
                 className="input-bar"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
+                onKeyDown={handleKeyPress}
             />
             <button className="submit-btn" onClick={handleCalculate}>calc</button>
             <h3 className="result">{result}</h3>
