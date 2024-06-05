@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './Calculate.css';
+import './CalculateCard.css';
 
 
 //calculate cards
-function Calculate(props) {
+function CalculateCard(props) {
 
     //state management
     const [input, setInput] = useState('');
@@ -39,4 +39,4 @@ function Calculate(props) {
     );
 }
 
-export default Calculate;
+export default CalculateCard;

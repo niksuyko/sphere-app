@@ -1,5 +1,5 @@
 import './App.css';
-import Calculate from './components/Calculate'
+import CalculateCard from './components/CalculateCard'
 import Header from './components/Header'
 import { calculateCubeVolume } from './components/calculateCubeVolume';
 import { calculateSphereVolume } from './components/calculateSphereVolume';
@@ -8,8 +8,8 @@ function App() {
     <>
     <Header />
     <div className="calc-container">
-      <Calculate name="sphere volume" input="radius" calculateFunction={calculateSphereVolume}/>
-      <Calculate name="cube volume" input="side length" calculateFunction={calculateCubeVolume}/>
+      <CalculateCard name="sphere volume" input="radius" calculateFunction={calculateSphereVolume}/>
+      <CalculateCard name="cube volume" input="side length" calculateFunction={calculateCubeVolume}/>
       </div>
     
     </>
