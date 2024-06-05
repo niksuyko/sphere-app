@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
 import './Calculate.css';
 
+
+//calculate cards
 function Calculate(props) {
+
+    //state management
     const [input, setInput] = useState('');
     const [result, setResult] = useState('');
 
+    //handle calculate when button is clicked
     const handleCalculate = () => {
         const newResult = props.calculateFunction(input);
         setResult(newResult);
     };
 
+    //return jsx
     return (
         <div className="container">
             <h1 className="main-title">{props.name}</h1>
