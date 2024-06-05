@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(228, 228, 228);
     color: white;
     width: 300px;
     min-width:300px;
@@ -8,12 +8,13 @@
     display: flex;
     flex-direction: column;
     border-radius: 9px;
-    box-shadow: 3px 3px 10px rgb(95, 95, 95);
+    box-shadow: 3px 3px 10px rgb(95, 95, 95, 0.5);
     margin-right: 30px;
 }
 
 .main-title{
-    font-weight: 300;
+    color: black;
+    font-weight: 400;
     margin:0;
 }
 .input-type {
@@ -21,12 +22,14 @@
     margin-top:30px;
     text-align: left;
     font-family: Inter;
-    font-weight: 200;
+    font-weight: 400;
+    color: black
 }
 .input-bar {
     width: 50%;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
+    border-width: 1px;
     height: 10%;
     margin-top: 30px;
 }
@@ -37,7 +40,7 @@
     width: 30%;
     height: 10%;
     background-color: rgb(66, 66, 66);
-    color: white;
+    color: rgb(255, 255, 255);
     align-items: center;
     border-color: rgba(128, 125, 125, 0.185); 
     border-radius: 5px;
@@ -51,6 +54,7 @@
     margin-top:30px;
     font-size: 18px;
     font-family: Inter;
-    font-weight: 200;
+    font-weight: 400;
+    color: black;
     
 }
